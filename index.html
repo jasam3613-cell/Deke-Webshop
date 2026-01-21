@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DekeShop</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">DekeShop</a>
+
+    <nav class="nav">
+      <a class="active" href="index.html">Naslovnica</a>
+      <a href="products.html">Proizvodi</a>
+      <a href="about.html">O nama</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="cart-link" href="products.html#cart" title="Košarica">Košarica (0)</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="kicker">Webshop za deke</p>
+        <h1>Jednostavno odaberi — udobno dobij.</h1>
+        <p class="lead">
+          Deke za dom, putovanja i poklon.
+          Čist dizajn, jasno istaknute cijene i jednostavna navigacija.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn" href="products.html">Pogledaj proizvode</a>
+          <a class="btn btn-ghost" href="about.html">Saznaj više</a>
+        </div>
+
+        <ul class="hero-bullets">
+          <li>Besplatna dostava iznad 60 €</li>
+          <li>14 dana za povrat</li>
+          <li>Sigurno plaćanje</li>
+        </ul>
+      </div>
+
+      <aside class="hero-card" aria-label="Izdvajamo">
+        <div class="promo-badge" aria-hidden="true">-15%</div>
+
+        <img class="hero-img" src="images/deka.jpg" alt="Deka">
+
+        <div class="hero-card-body">
+          <h2 class="h3">Deka “Soft Grey”</h2>
+          <p class="muted">Mekana, lagana i praktična za svaki dan.</p>
+          <div class="price-row">
+            <span class="price">29,90 €</span>
+            <span class="old-price">34,90 €</span>
+          </div>
+          <a class="btn btn-wide" href="products.html#p-soft-grey">Pogledaj</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Kategorije</h2>
+        <p class="muted">Brz odabir prema namjeni.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="products.html#dom">
+          <h3>Za dom</h3>
+          <p class="muted">Kauč, krevet, dnevni boravak.</p>
+        </a>
+
+        <a class="category-card" href="products.html#putovanja">
+          <h3>Za putovanja</h3>
+          <p class="muted">Lagana i kompaktna rješenja.</p>
+        </a>
+
+        <a class="category-card" href="products.html#poklon">
+          <h3>Za poklon</h3>
+          <p class="muted">Neutralne boje, uredno pakiranje.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <h2>Izdvojeni proizvodi</h2>
+        <p class="muted">Najčešći odabiri kupaca.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" id="p-soft-grey">
+          <img class="hero-img" src="images/deka.jpg" alt="Deka">
+          <div class="product-body">
+            <p class="tag">Za dom</p>
+            <h3>Soft Grey</h3>
+            <p class="muted">Mikrofibra, ugodna na dodir.</p>
+            <div class="product-row">
+              <span class="price">29,90 €</span>
+              <a class="btn btn-small" href="products.html#cart">Dodaj</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="hero-img" src="images/deka.jpg" alt="Deka">
+          <div class="product-body">
+            <p class="tag">Poklon</p>
+            <h3>Cozy Beige</h3>
+            <p class="muted">Neutralna boja, jednostavan uzorak.</p>
+            <div class="product-row">
+              <span class="price">24,90 €</span>
+              <a class="btn btn-small" href="products.html#cart">Dodaj</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img class="hero-img" src="images/deka.jpg" alt="Deka">
+          <div class="product-body">
+            <p class="tag">Putovanja</p>
+            <h3>Travel Blue</h3>
+            <p class="muted">Lagana, lako se sprema.</p>
+            <div class="product-row">
+              <span class="price">19,90 €</span>
+              <a class="btn btn-small" href="products.html#cart">Dodaj</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="center">
+        <a class="btn btn-ghost" href="products.html">Svi proizvodi</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <h3 class="h4">DekeShop</h3>
+      <p class="muted">Deke webshop.</p>
+    </div>
+    <div class="footer-links">
+      <a href="about.html">O nama</a>
+      <a href="contact.html">Kontakt</a>
+      <a href="products.html">Proizvodi</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <small>© 2026 DekeShop</small>
+  </div>
+</footer>
+
+</body>
+</html>
